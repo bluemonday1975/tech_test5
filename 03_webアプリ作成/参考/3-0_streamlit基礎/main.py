@@ -60,3 +60,4 @@ df3 = pd.DataFrame(weather_json['forecasts'][2]['chanceOfRain'], index=[
 
 df = pd.concat([df1, df2, df3])  # 今日、明日、明後日の降水確率を結合して一覧にしてdfに代入
 print(df)  # 一覧にした降水確率を表示
+
